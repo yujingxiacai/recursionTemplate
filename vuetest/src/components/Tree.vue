@@ -1,7 +1,12 @@
 <template>
     <ul class="clear-default">
+<<<<<<< HEAD
         <li v-for="(item,index) in list " :key="index" >
             <p class="lisi" @click="chooseFather(index)">{{item.content}}</p>
+=======
+        <li v-for="(item,index) in list " :key="index" class="lisi">
+            <p @click="chooseFather(index)">{{item.content}}</p>
+>>>>>>> a1c7ba246118b7e3c24433fd5026e5e99dd14d54
             <Tree v-if="showCurrent[index]" :list="item.child"/>
         </li>
     </ul>
@@ -22,7 +27,11 @@ export default {
     watch: {
         showCurrent:{
             handler(v,o){
+<<<<<<< HEAD
                 console.log("监听到了showCurrent的变化》》》",v,o);
+=======
+                console.log(v,o)
+>>>>>>> a1c7ba246118b7e3c24433fd5026e5e99dd14d54
             },
             deep:true
         },
