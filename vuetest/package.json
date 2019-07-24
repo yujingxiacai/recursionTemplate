@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
     "serve": "vue-cli-service serve",
-=======
-    "serve": "npm run serve",
->>>>>>> a1c7ba246118b7e3c24433fd5026e5e99dd14d54
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
